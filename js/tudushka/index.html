@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h1>Добавить задачу</h1>
+    <div class="task">
+   
+    <input type="text" id="taskInput" placeholder="Введите задачу">
+    <select id="categorySelect">
+        <option value="личное">Личное</option>
+        <option value="рабочее">Рабочее</option>
+        <option value="покупки">Покупки</option>
+    </select>
+    <button onclick="addTask()" class="addbutton">Добавить</button>
+</div>
+    <h2>Личное</h2>
+    <ul id="личное"></ul>
+
+    <h2>Рабочее</h2>
+    <ul id="рабочее"></ul>
+
+    <h2>Покупки</h2>
+    <ul id="покупки"></ul>
+</body>
+<script src="script.js"></script>
+</html>

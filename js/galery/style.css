@@ -1,0 +1,38 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    margin-top: 75px;
+    margin-left: 45%;
+    color: black;
+    background-color: violet;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+img {
+    margin: auto;
+}
+h1 {
+    font-family: "Nunito", sans-serif;
+}
+h2 {
+    margin: auto;
+    font-family: "Nunito", sans-serif;
+    
+}
+p{
+    font-family: "Nunito", sans-serif;
+}
+div{
+    margin: auto;
+    width: 900px;
+    height: 570px;
+    border: 2px solid black;
+    border-radius: 10%;
+    box-shadow: 0px 0px 53px -9px rgba(21, 193, 81, 0.97);
+}
+
